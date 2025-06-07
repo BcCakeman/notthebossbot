@@ -16,12 +16,12 @@ module.exports = {
 		row.addComponents(newTicket);
 
 		//GENERATE OUR EMBED
-		const titleText = 'Tickets Message';
+		const titleText = 'Request Log Review';
 		const embed = new EmbedBuilder()
 			.setColor(0x0099FF)
-			.setTitle(titleText)
-			.setAuthor({ name: interaction.user.username, iconURL: `https://cdn.discordapp.com/avatars/${interaction.user.id}/${interaction.user.avatar}.webp` })
-			.setDescription('Craete a ticket to get assigned roles.');
+			.setTitle(" ")
+			.setImage('https://cdn.discordapp.com/emojis/1088649138805162044.webp?size=96')
+			.setDescription('# Create a ticket to get assigned roles.');
 
 
 		interaction.reply({
