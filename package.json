@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
+    "start": "nodemon --ignore *youtube-data.json index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@googleapis/youtube": "^26.0.1",
     "discord.js": "^14.19.3",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "rss-parser": "^3.13.0"
   }
 }
