@@ -8,6 +8,7 @@ const { isProduction, devToken, prodToken } = require('./config.json');
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
+		GatewayIntentBits.GuildVoiceStates,
     ]
 });
 

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --ignore *youtube-data.json index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js",
+    "test": "nodemon --ignore *.json index.js"
   },
   "author": "",
   "license": "ISC",
